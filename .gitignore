@@ -1,6 +1,8 @@
 /*
 !.gitignore
 !composer.json
+!modman
+!readme.MD
 !app/
 app/*
 

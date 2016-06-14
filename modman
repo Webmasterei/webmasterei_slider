@@ -1,0 +1,12 @@
+app/code/community/Webmasterei/Slider/Block/Slide.php                       app/code/community/Webmasterei/Slider/Block/Slide.php
+app/code/community/Webmasterei/Slider/Block/Slider.php                      app/code/community/Webmasterei/Slider/Block/Slider.php
+app/code/community/Webmasterei/Slider/Helper/Data.php                       app/code/community/Webmasterei/Slider/Helper/Data.php
+app/code/community/Webmasterei/Slider/Model/Frameworkselect.php             app/code/community/Webmasterei/Slider/Model/Frameworkselect.php
+app/code/community/Webmasterei/Slider/etc/adminhtml.xml                     app/code/community/Webmasterei/Slider/etc/adminhtml.xml
+app/code/community/Webmasterei/Slider/etc/config.xml                        app/code/community/Webmasterei/Slider/etc/config.xml
+app/code/community/Webmasterei/Slider/etc/system.xml                        app/code/community/Webmasterei/Slider/etc/system.xml
+app/code/community/Webmasterei/Slider/etc/widget.xml                        app/code/community/Webmasterei/Slider/etc/system.xml
+app/design/frontend/base/default/template/webmasterei/slider/Slide.phtml    app/design/frontend/base/default/template/webmasterei/slider/Slide.phtml
+app/design/frontend/base/default/template/webmasterei/slider/Slider.phtml   app/design/frontend/base/default/template/webmasterei/slider/Slider.phtml
+app/etc/modules/Webmasterei_Slider.xml                                      app/etc/modules/Webmasterei_Slider.xml
+
