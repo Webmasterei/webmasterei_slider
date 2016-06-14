@@ -1,0 +1,14 @@
+<?php
+$image_xs = $this->getUrl('media').$this->getData('image_xs');
+$image_sm = $this->getUrl('media').$this->getData('image_sm');
+$image_md = $this->getUrl('media').$this->getData('image_md');
+$image_lg = $this->getUrl('media').$this->getData('image_ls');
+$link = $this->getUrl().$this->getData('link');
+$title = $this->getUrl().$this->getData('title');
+?>
+
+<li>
+    <a href="<?php echo $link ?>" title="<?php echo $title ?>">
+        <img src="<?php echo $image_xs ?>"/>
+    </a>
+</li>

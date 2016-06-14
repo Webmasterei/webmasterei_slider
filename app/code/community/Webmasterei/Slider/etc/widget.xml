@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<widgets>
+    <webmasterei_slider_widget type="slider/Slider" translate="name description">
+        <name>Webmasterei | Slider</name>
+        <description>Erstellen Sie einen Content-Block mit passenden Inhalten, z.B. Brandpage | Header und tragen Sie den Bezeichner hier ein.</description>
+        <parameters>
+            <block_id_0 type="complex" translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <label>Block 1</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/cms_block_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Block...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>10</sort_order>
+            </block_id_0>
+            <block_id_1 type="complex" translate="label">
+                <visible>1</visible>
+                <label>Block 2</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/cms_block_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Block...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>20</sort_order>
+            </block_id_1>
+            <block_id_2 type="complex" translate="label">
+                <visible>1</visible>
+                <label>Block 3</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/cms_block_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Block...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>30</sort_order>
+            </block_id_2>
+            <block_id_3 type="complex" translate="label">
+                <visible>1</visible>
+                <label>Block 4</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/cms_block_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Block...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>30</sort_order>
+            </block_id_3>
+            <block_id_4 type="complex" translate="label">
+                <visible>1</visible>
+                <label>Block 5</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/cms_block_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Block...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>40</sort_order>
+            </block_id_4>
+            <template translate="label">
+                <label>Template</label>
+                <visible>0</visible>
+                <type>select</type>
+                <value>webmasterei/slider/Slider.phtml</value>
+            </template>
+        </parameters>
+    </webmasterei_slider_widget>
+    <webmasterei_slide type="slider/Slide" translate="name description">
+        <name>Webmasterei | Slide</name>
+        <description>Inhalte für Slider</description>
+        <parameters>
+            <title>
+                <visible>1</visible>
+                <label>Title</label>
+                <description>Set a Widget Title</description>
+                <type>text</type>
+                <sort_order>0</sort_order>
+            </title>
+            <link>
+                <visible>1</visible>
+                <label>Link</label>
+                <description>Set a slide link target.</description>
+                <type>text</type>
+                <sort_order>10</sort_order>
+                <required>1</required>
+            </link>
+            <image_xs>
+                <visible>1</visible>
+                <label>Image Default</label>
+                <description>Default Image</description>
+                <type>widgetimagechooser/chooser</type>
+                <sort_order>20</sort_order>
+            </image_xs>
+            <!-- TODO: Make all 4 image sizes work and interchange for a fully responsive slider -->
+            <!--image_sm>
+                <visible>1</visible>
+                <label>Image Small</label>
+                <description>Small devices (tablets, 768px and up)</description>
+                <type>widgetimagechooser/chooser</type>
+                <sort_order>30</sort_order>
+            </image_sm>
+            <image_md>
+                <visible>1</visible>
+                <label>Image Medium</label>
+                <description>Medium devices (desktops, 992px and up)</description>
+                <type>widgetimagechooser/chooser</type>
+                <sort_order>40</sort_order>
+            </image_md>
+            <image_xl>
+                <visible>1</visible>
+                <label>Image Large</label>
+                <description>Large devices (large desktops, 1200px and up)</description>
+                <type>widgetimagechooser/chooser</type>
+                <sort_order>50</sort_order>
+            </image_xl-->
+            <template translate="label">
+                <label>Template</label>
+                <visible>0</visible>
+                <type>select</type>
+                <value>webmasterei/slider/Slide.phtml</value>
+            </template>
+        </parameters>
+    </webmasterei_slide>
+</widgets>

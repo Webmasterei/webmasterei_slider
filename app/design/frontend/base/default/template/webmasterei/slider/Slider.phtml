@@ -1,0 +1,37 @@
+<?php 
+// Get all Data
+$framework = $font_color = Mage::getStoreConfig('slider/slider_blocks/framework', Mage::app()->getStore());
+$sliderBlocks = array();
+$i = 0;
+do {
+    if ($this->getData('block_id_' . $i)) {
+        $sliderBlocks [] = $this->getData('block_id_' . $i);
+    }
+    $i++;
+} while ($i <= 4);
+?>
+
+
+<?php
+// If no Framework was selected
+if(!$framework): ?>
+    <div class="slideshow-container">
+        <ul class="slideshow">
+            <?php $i = 0;
+            foreach ($sliderBlocks as $sliderBock) : ?>
+                <?php
+                $block = Mage::getModel('cms/block')->load($sliderBock)->getIdentifier();
+                echo $this->getLayout()->createBlock('cms/block')->setBlockId($block)->toHtml();
+
+                ?>
+                <?php
+                $i++;
+            endforeach;
+            ?>
+        </ul>
+        <div class="slideshow-pager">&nbsp;</div>
+        <span class="slideshow-prev">&nbsp;</span> <span class="slideshow-next">&nbsp;</span></div>
+    <?php elseif($framework=="bootstrap_3"): ?>ss
+    <?php elseif($framework=="foundation_5"): echo "x"; ?>
+    <?php else: ?>
+<?php endif; //Framwork selected ?>

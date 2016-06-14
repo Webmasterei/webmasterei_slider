@@ -1,0 +1,22 @@
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <slider translate="title" module="webmasterei_slider">
+                                        <title>Webmasterei Slider</title>
+                                        <sort_order>999</sort_order>
+                                    </slider>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
