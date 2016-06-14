@@ -14,6 +14,8 @@ The are put together to a slider within the Widget "Webmasterei | Slider"
 1. Go into you favourite Slider Spot (Maybe the homepage)
 1. Insert a Widget Called "Webmasterei | Slider"
 1. Assign the created content blocks to the Widget.
+
+
 TODO's:
 Responsiveness with four images
 Prep for Foundation and Bootstrap
